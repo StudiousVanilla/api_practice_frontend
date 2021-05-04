@@ -2,10 +2,18 @@ import { useEffect, useState } from "react";
 import LOTRCharacterData from "./LOTRCharacterData"
 
 
-const RugbyData = () => {
+const LOTRData = () => {
 
     const [quote, setQuote] = useState('')
-    const [character, setCharacter] = useState({name:'unkown'})
+    const [character, setCharacter] = useState({
+        name:'unkown',
+        race: 'unknown',
+        gender: 'unknown',
+        height: 'unknown',
+        birth: 'unknown',
+        death: 'unknown',
+        wiki: 'unknown'
+    })
     const [movie, setMovie] = useState('')
 
     const movieIdConvert = (id) =>{
@@ -20,7 +28,7 @@ const RugbyData = () => {
             setMovie("The Return of the King")
         }
         else{
-            setMovie("poop tiwn usa")
+            setMovie("Unknown")
         }
     }
 
@@ -91,4 +99,4 @@ const RugbyData = () => {
      );
 }
  
-export default RugbyData;
+export default LOTRData;
