@@ -17,7 +17,6 @@ Version 1.10 released on April 7, 2004.
 https://www.dafont.com/tengwar-annatar.font
 
 Aniron Font Family
-Made by Avatar: thehutt thehutt
 https://www.1001fonts.com/aniron-font.html
 
 
