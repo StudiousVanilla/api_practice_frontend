@@ -1,7 +1,3 @@
- TODO:
-- useEffect for inital quote pull
-
-<a target="_blank" href="undefined/icons/set/leaf-of-lorien">Leaf Of Lorien icon</a> icon by <a target="_blank" href="">Icons8</a>
 
 Built by Oisin Byrne (https://www.oisinbyrne.me) primarily for API practice. 
 
@@ -33,3 +29,6 @@ https://i.pinimg.com/originals/3f/96/19/3f96193a86edda6541a5c7d3b9679085.jpg?fbc
 
 ## :pencil2: Character card image credit:
 https://kissedbyflames.tumblr.com/
+
+## :leaves: Lorien Leaf Credit:
+<a target="_blank" href="undefined/icons/set/leaf-of-lorien">Leaf Of Lorien icon</a> icon by <a target="_blank" href="">Icons8</a>

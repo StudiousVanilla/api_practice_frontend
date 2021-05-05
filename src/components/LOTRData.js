@@ -37,7 +37,7 @@ const LOTRData = () => {
 
     const fetchCharacterData = async (charID) =>{
         try {
-            const json = await fetch(`http://localhost:3000/character/${charID}`)
+            const json = await fetch(`https://api-practice-backend.herokuapp.com/character/${charID}`)
             const data = await json.json()
             return data      
         } catch (error) {
@@ -47,7 +47,7 @@ const LOTRData = () => {
 
     const fetchQuoteData = async () =>{
         try {
-            const json = await fetch(`http://localhost:3000/quotes`)
+            const json = await fetch(`https://api-practice-backend.herokuapp.com/quotes`)
             const data = await json.json()
             return data
         } catch (error) {
@@ -115,6 +115,8 @@ const LOTRData = () => {
 
 
   useEffect(() => {
+    newCard()
+    // eslint-disable-next-line 
   }, []);
 
 
