@@ -12,8 +12,8 @@ https://piccalil.li/blog/a-modern-css-reset/
 
 ## Font credits:
 
-Tengwar Annatar -- A Tengwar Type Family
-Version 1.10 released on April 7, 2004.
+Tengwar Annatar -- A Tengwar Type Family\
+Version 1.10 released on April 7, 2004.\
 https://www.dafont.com/tengwar-annatar.font
 
 Aniron Font Family
