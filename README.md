@@ -21,7 +21,7 @@ https://www.1001fonts.com/aniron-font.html
 
 
 ## Animation credit:
-https://codepen.io/nxworld - Naoya
+https://codepen.io/nxworld - Naoya\
 https://codepen.io/nxworld/pen/LbKxOJ
 
 ## Desktop Background credit:
