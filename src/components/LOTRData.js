@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import LOTRCharacterData from "./LOTRCharacterData"
+import LOTRBtn from "./LOTRBtn"
+import leaf96 from "../imgs/leaf96.png"
 
 
 const LOTRData = () => {
@@ -15,6 +17,7 @@ const LOTRData = () => {
         wiki: 'unknown'
     })
     const [movie, setMovie] = useState('')
+    const [cardVisible, setCardVisible] = useState(true)
 
     const movieIdConvert = (id) =>{
         const trimID = id.trim()
@@ -64,6 +67,11 @@ const LOTRData = () => {
     }
 
     const newCard = async () =>{
+        // sets card toggle staues back to 'false' and slides card away
+        setCardVisible(true)
+        cardReset()
+
+
         // fetches movie quote and then sets state for quote
         const quoteData = await fetchQuoteData()
         setQuote(regexFix(quoteData.dialog))
@@ -74,6 +82,34 @@ const LOTRData = () => {
         // fetches character data, based off quote, and then sets state
         const characterData = await fetchCharacterData(quoteData.character)
         setCharacter(characterData)
+
+    }
+
+    // toggles wether character info card is visible
+    const toggleCardVisible = () =>{
+        setCardVisible(!cardVisible)
+        cardSlide()
+    }
+
+    const cardSlide = () =>{
+        const card = document.getElementById('card')
+        const button = document.getElementById('button')
+        if(cardVisible){
+            card.style.left = '0%'
+            button.style.transform = 'rotate(270deg)'
+        }
+        else{
+            card.style.left = null
+            button.style.transform = null
+        }
+    }
+
+    const cardReset = () =>{
+        const card = document.getElementById('card')
+        const button = document.getElementById('button')
+        card.style.left = null
+        button.style.left = null
+        button.style.transform = null
     }
 
 
@@ -82,19 +118,23 @@ const LOTRData = () => {
   }, []);
 
 
-    return ( 
-        <div> 
-            <button 
-            onClick={newCard}>
-                quote
-            </button>
-            <div className='container'>
-                <h1 className="quote">{quote}</h1>
+    return (
+        <div className="flex-column mobile-align">
+            <div className="quote-top-container"> 
+                <div className='quote-container'>
+                    <h1 className="quote">{quote}</h1>
+                </div>
+                <div className='movie-info'>
+                    <p>{movie}</p>
+                </div>
             </div>
-            <div className='info'>
-                <p>{movie}</p>
+            <div className="character-info-container">
+                <button className="character-btn" id="button" onClick={toggleCardVisible}>
+                        <img className="leaf" src={leaf96} alt="Lorien Leaf"/>
+                </button>
+                <LOTRCharacterData character={character}/>
             </div>
-            <LOTRCharacterData character={character}/>
+            <LOTRBtn newCard = {newCard}/>
         </div>
      );
 }

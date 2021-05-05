@@ -1,8 +1,7 @@
-Design LOTR fonrend
-
-- elvuish glowsing letters and a simplge gol ring?
-
-- elivish rotating cirle of text? + glowing?
+ TODO:
+- Quote page style
+- Character info card style 
+- useEffect for inital quote pull'
 
 
 
@@ -23,3 +22,14 @@ https://www.1001fonts.com/aniron-font.html
 
 https://codepen.io/nxworld - Naoya
 https://codepen.io/nxworld/pen/LbKxOJ
+
+<a target="_blank" href="undefined/icons/set/leaf-of-lorien">Leaf Of Lorien icon</a> icon by <a target="_blank" href="">Icons8</a>
+
+backgrounds
+https://www.reddit.com/user/Sprutnums/?sort=top
+
+card images
+https://kissedbyflames.tumblr.com/
+
+durin
+https://wallpapersafari.com/w/XNIq0j
