@@ -1,5 +1,5 @@
 import {BrowserRouter as Router, Route} from 'react-router-dom'
-import LOTRData from './components/LOTRData'
+import LOTR from './components/LOTR'
 import LOTRCover from './components/LOTRCover'
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
           <LOTRCover/>
         </Route>
         <Route path = '/quotes'>
-          <LOTRData/>
+          <LOTR/>
         </Route>
       </Router>
     </div>
