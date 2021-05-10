@@ -8,7 +8,7 @@ import LOTRFooter from "./LOTRFooter"
 
 const LOTR = () => {
 
-    const [quote, setQuote] = useState('')
+    const [quote, setQuote] = useState(false)
     const [character, setCharacter] = useState('')
     const [charVisible, setCharVisible] = useState('')
     const [poster, setPoster] = useState(0)
@@ -118,17 +118,21 @@ const LOTR = () => {
 
         // fetches character data, based off quote, and then sets state
         const characterData = await fetchCharacterData(quoteData.character)
-        setCharacter(characterData.name)
+        setCharacter(characterData)
+        console.table(characterData)
 
     }
 
     const gandalfQuote = (toggle) =>{
         const gandalfQuote = document.getElementById('gandalfQuote')
+        const question = document.getElementById('question')
         if(toggle){
             gandalfQuote.style.visibility = 'visible'
+            question.style.visibility = 'hidden'
         }
         else{
             gandalfQuote.style.visibility = 'hidden'
+            question.style.visibility = 'visible'
         }
     }
 
@@ -137,7 +141,7 @@ const LOTR = () => {
         setTimeout(()=>{
             gandalfQuote(false)
             newQuote()
-        }, 5000)
+        }, 6000)
     }
 
 
@@ -160,7 +164,7 @@ const LOTR = () => {
             <div className="text-container"> 
                 <div className='quote-container'>
                     <h1 className="quote">{quote}</h1>
-                    <p className="character" id="character">{character}</p>
+                    <p className="character" id="character">{character.name}</p>
                     <LOTRCharBtn toggleCharVisibility={toggleCharVisibility}/>
                 </div>
             </div>

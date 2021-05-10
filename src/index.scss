@@ -392,7 +392,8 @@ h3 {
 
 .btn-text{
   position: absolute;
-  top: -35vh;
+  top: -20%;
+  left: 60%;
   font-family: 'aniron';
   color: black
 }
@@ -490,8 +491,8 @@ footer{
   }
 
   .btn-text{
-    width: 320px;
-    font-size: 1.5em;
+    width: 240px;
+    font-size: 1em;
   }
 
   .quote-btn{
@@ -539,7 +540,9 @@ footer{
   }
 
   .btn-text{
-    width: 220px;
+    top: -30%;
+    left: -20%;
+    width: 175px;
     font-size: 0.75em;
   }
 
@@ -584,6 +587,13 @@ footer{
   .poster-container{
     max-height: 210px;
     max-width: 140px;
+  }
+
+  .btn-text{
+    top: -30%;
+    left: 0%;
+    width: 120px;
+    font-size: 0.55em;
   }
 
 }
