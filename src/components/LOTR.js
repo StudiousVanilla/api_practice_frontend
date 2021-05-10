@@ -81,14 +81,14 @@ const LOTR = () => {
 
     const toggleCharacter = () =>{
         const character = document.getElementById('character')
-        const leaf = document.getElementById('leaf')
+        const question = document.getElementById('question')
         if(charVisible){
-            leaf.style.transform = 'rotate(-180deg)'
+            question.style.visibility = 'hidden'
             character.style.opacity = 1
             character.style.transition = null
         }
         else{
-            leaf.style.transform = null
+            question.style.visibility = 'visible'
             character.style.opacity = null
             character.style.transition = '0s'
         }
@@ -161,9 +161,9 @@ const LOTR = () => {
                 <div className='quote-container'>
                     <h1 className="quote">{quote}</h1>
                     <p className="character" id="character">{character}</p>
+                    <LOTRCharBtn toggleCharVisibility={toggleCharVisibility}/>
                 </div>
             </div>
-            <LOTRCharBtn toggleCharVisibility={toggleCharVisibility}/>
             <LOTRPoster poster={poster}/>
             <LOTRQuoteBtn 
             newQuote = {newQuote} />
