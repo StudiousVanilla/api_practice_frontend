@@ -125,14 +125,11 @@ const LOTR = () => {
 
     const gandalfQuote = (toggle) =>{
         const gandalfQuote = document.getElementById('gandalfQuote')
-        const question = document.getElementById('question')
         if(toggle){
             gandalfQuote.style.visibility = 'visible'
-            question.style.visibility = 'hidden'
         }
         else{
             gandalfQuote.style.visibility = 'hidden'
-            question.style.visibility = 'visible'
         }
     }
 
