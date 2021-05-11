@@ -136,12 +136,22 @@ const LOTR = () => {
         }
     }
 
+    const charButtonSetUp = ()=>{
+        const question = document.getElementById('question')
+        if(character === ''){
+            question.style.visibility = 'hidden'
+        }
+        else{
+            question.style.visibility = 'visible'
+        }
+    }
+
     const pageSetUp = () =>{
         gandalfQuote(true)
+        newQuote()
         setTimeout(()=>{
             gandalfQuote(false)
-            newQuote()
-        }, 6000)
+        }, 4000)
     }
 
 
@@ -152,10 +162,18 @@ const LOTR = () => {
         // eslint-disable-next-line 
     }, [charVisible])
 
+    // sets up page on initial render
     useEffect(() => {
     pageSetUp()
     // eslint-disable-next-line 
     }, []);
+
+    // sets up character button on initial page render
+    useEffect(()=>{
+        charButtonSetUp()
+        // eslint-disable-next-line
+    }, [character])
+
 
 
     return (
