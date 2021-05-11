@@ -1,5 +1,8 @@
 
-Built by Oisin Byrne (https://www.oisinbyrne.me) primarily for API practice. 
+Built by Oisin Byrne (https://www.oisinbyrne.me) primarily for API practice.
+
+fetches data from a Node backend and 'the-one-api':
+https://the-one-api.dev/
 
 
 ## :art: CSS Reset:
@@ -21,14 +24,19 @@ https://codepen.io/nxworld - Naoya\
 https://codepen.io/nxworld/pen/LbKxOJ
 
 
-## :computer: Desktop Background credit:
-https://www.reddit.com/user/Sprutnums/?sort=top
+## :framed_picture: Background credit:
+https://www.reddit.com/r/lotr/comments/7iwjwt/journey_to_weathertop_wallpaper/
+https://www.reddit.com/user/Sprutnums/
 
-## :iphone: Mobile Background credit:
-https://i.pinimg.com/originals/3f/96/19/3f96193a86edda6541a5c7d3b9679085.jpg?fbclid=IwAR0Pk67127o_FxI34m_ZV1NrJEXbTq5zNOM2W5mzAPL7LVbG6Ht-pYGadks
 
-## :pencil2: Character card image credit:
-https://kissedbyflames.tumblr.com/
+## :older_man: Gandlaf credit:
+https://www.instagram.com/p/vxrPEQD16z/?fbclid=IwAR1m1VfXZ_xUSOKBFyHvk3zf-GjRzGSXXef6kzXHHXyhxhzgsJkaMwEO8Bg
+https://www.instagram.com/p/vxrPEQD16z/?utm_source=ig_web_button_share_sheet&fbclid=IwAR34HdN8f0gPuBCaW4qlUowsJjrdWu7sRHC1iEAjAxjbM_7T14t6NOGhG3Y
+
+
+## :books: Book posters credit:
+https://www.megansebesta.com/?fbclid=IwAR1lQ-J_6sKXWBFmh7_NDYixN5McjSgEWQgVRZwrVGy2mQ3xQ0ThP38XvRI#/lord-of-the-rings-books/
+
 
 ## :leaves: Lorien Leaf Credit:
 <a target="_blank" href="undefined/icons/set/leaf-of-lorien">Leaf Of Lorien icon</a> icon by <a target="_blank" href="">Icons8</a>
