@@ -136,16 +136,6 @@ const LOTR = () => {
         }
     }
 
-    const charButtonSetUp = ()=>{
-        const question = document.getElementById('question')
-        if(character === ''){
-            question.style.visibility = 'hidden'
-        }
-        else{
-            question.style.visibility = 'visible'
-        }
-    }
-
     const pageSetUp = () =>{
         gandalfQuote(true)
         newQuote()
@@ -167,12 +157,6 @@ const LOTR = () => {
     pageSetUp()
     // eslint-disable-next-line 
     }, []);
-
-    // sets up character button on initial page render
-    useEffect(()=>{
-        charButtonSetUp()
-        // eslint-disable-next-line
-    }, [character])
 
 
 
