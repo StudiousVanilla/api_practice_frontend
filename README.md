@@ -7,7 +7,7 @@ https://the-one-api.dev/
 A simple LOTR quote generator. Try to guess which character said the quote. Press the **?** to reveal the character.
 
 
-# :comnputer: **[Live Demo](https://hungry-goodall-28f444.netlify.app/)**
+# :computer: **[Live Demo](https://hungry-goodall-28f444.netlify.app/)**
 
 ## :art: [CSS Reset](https://piccalil.li/blog/a-modern-css-reset)
 
