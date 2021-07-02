@@ -7,9 +7,14 @@ https://the-one-api.dev/
 A simple LOTR quote generator. Try to guess which character said the quote. Press the **?** to reveal the character.
 
 
-# **[Live Demo](https://hungry-goodall-28f444.netlify.app/)**
+# :comnputer: **[Live Demo](https://hungry-goodall-28f444.netlify.app/)**
 
 ## :art: [CSS Reset](https://piccalil.li/blog/a-modern-css-reset)
+
+## :older_man: [Gandlaf credit](https://www.instagram.com/p/vxrPEQD16z/?fbclid=IwAR1m1VfXZ_xUSOKBFyHvk3zf-GjRzGSXXef6kzXHHXyhxhzgsJkaMwEO8Bg)
+
+
+## :books: [Book posters credit](https://www.megansebesta.com/?fbclid=IwAR1lQ-J_6sKXWBFmh7_NDYixN5McjSgEWQgVRZwrVGy2mQ3xQ0ThP38XvRI#/lord-of-the-rings-books/)
 
 
 ## :black_nib: Font credits:
@@ -26,14 +31,6 @@ A simple LOTR quote generator. Try to guess which character said the quote. Pres
 ## :framed_picture: Background credit:
 
 [Sprutnums](https://www.reddit.com/r/lotr/comments/7iwjwt/journey_to_weathertop_wallpaper/)
-
-
-
-## :older_man: [Gandlaf credit](https://www.instagram.com/p/vxrPEQD16z/?fbclid=IwAR1m1VfXZ_xUSOKBFyHvk3zf-GjRzGSXXef6kzXHHXyhxhzgsJkaMwEO8Bg)
-
-
-
-## :books: [Book posters credit](https://www.megansebesta.com/?fbclid=IwAR1lQ-J_6sKXWBFmh7_NDYixN5McjSgEWQgVRZwrVGy2mQ3xQ0ThP38XvRI#/lord-of-the-rings-books/)
 
 
 ## :leaves: Lorien Leaf Credit:
