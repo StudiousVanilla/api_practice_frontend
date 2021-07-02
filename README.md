@@ -1,14 +1,13 @@
 
 Built by [Oisin Byrne](https://www.oisinbyrne.me) primarily for API practice.
 
-fetches data from a Node backend and 'the-one-api':
+fetches data from a [Node Backend](https://github.com/StudiousVanilla/api_practice_backend) and 'the-one-api':
 https://the-one-api.dev/
+
+A simple LOTR quote generator. Try to guess which character said the quote. Press the **?** to reveal the character.
 
 
 # **[Live Demo](https://hungry-goodall-28f444.netlify.app/)**
-
-
-## :computer: [Backend](https://github.com/StudiousVanilla/api_practice_backend)
 
 ## :art: [CSS Reset](https://piccalil.li/blog/a-modern-css-reset)
 
