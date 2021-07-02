@@ -4,6 +4,10 @@ Built by [Oisin Byrne](https://www.oisinbyrne.me) primarily for API practice.
 fetches data from a Node backend and 'the-one-api':
 https://the-one-api.dev/
 
+
+# **[Live Demo](https://hungry-goodall-28f444.netlify.app/)**
+
+
 ## :computer: Backend:
 https://github.com/StudiousVanilla/api_practice_backend
 
