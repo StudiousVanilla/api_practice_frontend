@@ -10,7 +10,7 @@ https://the-one-api.dev/
 
 ## :computer: [Backend](https://github.com/StudiousVanilla/api_practice_backend)
 
-## :art: [CSS Reset](https://piccalil.li/blog/a-modern-css-reset)/
+## :art: [CSS Reset](https://piccalil.li/blog/a-modern-css-reset)
 
 
 ## :black_nib: Font credits:
