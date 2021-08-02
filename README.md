@@ -6,8 +6,17 @@ https://the-one-api.dev/
 
 A simple LOTR quote generator. Try to guess which character said the quote. Press the **?** to reveal the character.
 
+Front end uses React and SASS.
+
+API calls secured with a combination of HTTPS, CORS and a Bearer Token.
+
+This application has been deployed to Netlify.
+
 
 # :computer: **[Live Demo](https://hungry-goodall-28f444.netlify.app/)**
+
+
+*Credits for images, art work and fonts below.*
 
 ## :art: [CSS Reset](https://piccalil.li/blog/a-modern-css-reset)
 
